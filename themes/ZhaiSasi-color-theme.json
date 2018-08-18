@@ -1,0 +1,300 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#e5e5e5",
+				"foreground": "#bbb",
+				"findHighlight": "#CCCCCC",
+				"gutterForeground": "#444444",
+				"activeGuide": "#008080"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": "support",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "",
+				"foreground": "#FF8000"
+			}
+		},
+		{
+			"name": "Entity inherited-class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "String embedded-source",
+			"scope": "string.quoted source",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "String constant",
+			"scope": "string constant",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "String.regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "String variable",
+			"scope": "string variable",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Support.function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "Support.constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Meta.tag.A",
+			"scope": [
+				"declaration.tag",
+				"declaration.tag entity",
+				"meta.tag",
+				"meta.tag entity"
+			],
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "css tag-name",
+			"scope": "meta.selector.css entity.name.tag",
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "css#id",
+			"scope": "meta.selector.css entity.other.attribute-name.id",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "css.class",
+			"scope": "meta.selector.css entity.other.attribute-name.class",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "css property-name:",
+			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "css property-value;",
+			"scope": [
+				"meta.property-group support.constant.property-value.css",
+				"meta.property-value support.constant.property-value.css"
+			],
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "css @at-rule",
+			"scope": "meta.preprocessor.at-rule keyword.control.at-rule",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "css additional-constants",
+			"scope": [
+				"meta.property-value support.constant.named-color.css",
+				"meta.property-value constant"
+			],
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "css constructor.argument",
+			"scope": "meta.constructor.argument.css",
+			"settings": {
+				"foreground": "#FF8000"
+			}
+		},
+		{
+			"name": "html id",
+			"scope": "entity.other.attribute-name.id.html",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "html class",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "html punctuations tags",
+			"scope": [
+				"punctuation.definition.tag.end",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#0000D0"
+			}
+		},
+		{
+			"name": "CSS @import",
+			"scope": "keyword.control.at-rule.import.css",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "LESS variables",
+			"scope": "variable.other.less",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "LESS variables",
+			"scope": "entity.other.less.mixin",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "LESS units",
+			"scope": "source.css.less keyword.unit.css",
+			"settings": {
+				"foreground": "#D00000"
+			}
+		},
+		{
+			"name": "Angular",
+			"scope": [
+				"entity.other.attribute-name.angular.html",
+				"source.angular.embedded.html"
+			],
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "HTML Entities",
+			"scope": "constant.character.entity.html",
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Doctype/XML Processing",
+			"scope": [
+				"meta.tag.sgml.doctype.xml",
+				"declaration.sgml.html declaration.doctype",
+				"declaration.sgml.html declaration.doctype entity",
+				"declaration.sgml.html declaration.doctype string",
+				"declaration.xml-processing",
+				"declaration.xml-processing entity",
+				"declaration.xml-processing string",
+				"doctype"
+			],
+			"settings": {
+				"foreground": "#D00000"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#e5e5e5",
+		"editorCursor.foreground": "#444444",
+		"editor.foreground": "#444444",
+		"editorWhitespace.foreground": "#444444",
+		"editor.lineHighlightBackground": "#CCCCCC",
+		"editor.selectionBackground": "#CCCCCC",
+		"editor.inactiveSelectionBackground": "#CCCCCC",
+		"editorIndentGuide.background": "#008080"
+	},
+	"name": "ZhaiSasi"
+}

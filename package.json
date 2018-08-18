@@ -1,0 +1,36 @@
+{
+	"name": "zhaisasi",
+	"displayName": "ZhaiSasi",
+	"description": "VSCode theme optimized version",
+	"version": "0.0.1",
+	"publisher": "zhaisasi",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ZhaiSasi",
+				"uiTheme": "vs",
+				"path": "./themes/ZhaiSasi-color-theme.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/zhaisasi/vscode-themes-zhaisasi/issues",
+		"email": "zhaisasi@qq.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhaisasi/vscode-themes-zhaisasi.git"
+	},
+	"homepage": "https://github.com/zhaisasi/vscode-themes-zhaisasi",
+	"__metadata": {
+		"id": "54a407a8-86f1-4b41-8354-9fccc911483a",
+		"publisherId": "8e5381fb-b22a-4a9c-a344-d94984c7672e",
+		"publisherDisplayName": "zhaisasi"
+	}
+}
