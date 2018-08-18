@@ -3,9 +3,10 @@
 ```json
 	"workbench.colorCustomizations": {
 		"sideBar.background": "#e5e5e5", //侧边栏背景色
+		"editor.background": "#e5e5e5", //编辑区域背景颜色
 		"editorWhitespace.foreground": "#aaa", //空白符号颜色
 		"editorGutter.background": "#ddd", //编辑器导航线背景色
-		"editor.lineHighlightBackground": "#ccc",
+		"editor.lineHighlightBackground": "#ccc", //光标所在行背景颜色
 		"tab.inactiveBackground": "#ccc", //其他选项卡背景色
 		"tab.inactiveForeground": "#333", //其他选项卡前景色
 		"tab.activeBackground": "#e5e5e5", //当前选项卡背景色
