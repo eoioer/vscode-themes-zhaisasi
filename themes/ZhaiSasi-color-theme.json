@@ -1,300 +1,236 @@
 {
-	"tokenColors": [
-		{
-			"settings": {
-				"background": "#e5e5e5",
-				"foreground": "#bbb",
-				"findHighlight": "#CCCCCC",
-				"gutterForeground": "#444444",
-				"activeGuide": "#008080"
-			}
-		},
-		{
-			"name": "Comment",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#AAAAAA"
-			}
-		},
-		{
-			"name": "Constant",
-			"scope": "constant",
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "Entity",
-			"scope": "entity",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "String",
-			"scope": "string",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "Support",
-			"scope": "support",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": "invalid",
-			"settings": {
-				"background": "",
-				"foreground": "#FF8000"
-			}
-		},
-		{
-			"name": "Entity inherited-class",
-			"scope": "entity.other.inherited-class",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "String embedded-source",
-			"scope": "string.quoted source",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "String constant",
-			"scope": "string constant",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "String.regexp",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "String variable",
-			"scope": "string variable",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "Support.function",
-			"scope": "support.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "Support.constant",
-			"scope": "support.constant",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "Meta.tag.A",
-			"scope": [
-				"declaration.tag",
-				"declaration.tag entity",
-				"meta.tag",
-				"meta.tag entity"
-			],
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "css tag-name",
-			"scope": "meta.selector.css entity.name.tag",
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "css#id",
-			"scope": "meta.selector.css entity.other.attribute-name.id",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "css.class",
-			"scope": "meta.selector.css entity.other.attribute-name.class",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "css property-name:",
-			"scope": "support.type.property-name.css",
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "css property-value;",
-			"scope": [
-				"meta.property-group support.constant.property-value.css",
-				"meta.property-value support.constant.property-value.css"
-			],
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "css @at-rule",
-			"scope": "meta.preprocessor.at-rule keyword.control.at-rule",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "css additional-constants",
-			"scope": [
-				"meta.property-value support.constant.named-color.css",
-				"meta.property-value constant"
-			],
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "css constructor.argument",
-			"scope": "meta.constructor.argument.css",
-			"settings": {
-				"foreground": "#FF8000"
-			}
-		},
-		{
-			"name": "html id",
-			"scope": "entity.other.attribute-name.id.html",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "html class",
-			"scope": "entity.other.attribute-name.html",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "html punctuations tags",
-			"scope": [
-				"punctuation.definition.tag.end",
-				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag"
-			],
-			"settings": {
-				"foreground": "#0000D0"
-			}
-		},
-		{
-			"name": "CSS @import",
-			"scope": "keyword.control.at-rule.import.css",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "LESS variables",
-			"scope": "variable.other.less",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "LESS variables",
-			"scope": "entity.other.less.mixin",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "LESS units",
-			"scope": "source.css.less keyword.unit.css",
-			"settings": {
-				"foreground": "#D00000"
-			}
-		},
-		{
-			"name": "Angular",
-			"scope": [
-				"entity.other.attribute-name.angular.html",
-				"source.angular.embedded.html"
-			],
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "HTML Entities",
-			"scope": "constant.character.entity.html",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "Doctype/XML Processing",
-			"scope": [
-				"meta.tag.sgml.doctype.xml",
-				"declaration.sgml.html declaration.doctype",
-				"declaration.sgml.html declaration.doctype entity",
-				"declaration.sgml.html declaration.doctype string",
-				"declaration.xml-processing",
-				"declaration.xml-processing entity",
-				"declaration.xml-processing string",
-				"doctype"
-			],
-			"settings": {
-				"foreground": "#D00000"
-			}
-		}
-	],
-	"colors": {
-		"editor.background": "#e5e5e5",
-		"editorCursor.foreground": "#444444",
-		"editor.foreground": "#444444",
-		"editorWhitespace.foreground": "#444444",
-		"editor.lineHighlightBackground": "#CCCCCC",
-		"editor.selectionBackground": "#CCCCCC",
-		"editor.inactiveSelectionBackground": "#CCCCCC",
-		"editorIndentGuide.background": "#008080"
-	},
-	"name": "ZhaiSasi"
+    "tokenColors": [{
+        "settings": {
+            "background": "#EAEAEA",
+            "foreground": "#555",
+            "findHighlight": "#39f",
+            "gutterForeground": "#999",
+        }
+    }, {
+        "name": "评论",
+        "scope": "comment",
+        "settings": {
+            "foreground": "#999",
+            "background": "",
+        }
+    }, {
+        "name": "字符串单引号",
+        "scope": "string.quoted.single",
+        "settings": {
+            "foreground": "#4b4",
+        }
+    }, {
+        "name": "字符串",
+        "scope": "string",
+        "settings": {
+            "foreground": "#5a5",
+        }
+    }, {
+        "name": "正则字符串",
+        "scope": "string.regexp",
+        "settings": {
+            "foreground": "#93f",
+        }
+    }, {
+        "name": "常量",
+        "scope": "constant",
+        "settings": {
+            "foreground": "#39f",
+        }
+    }, {
+        "name": "内置常量",
+        "scope": "support.constant",
+        "settings": {
+            "foreground": "#39f",
+            "fontStyle": "bold",
+        }
+    }, {
+        "name": "语言常量",
+        "scope": "constant.language",
+        "settings": {
+            "foreground": "#39f",
+            "fontStyle": "bold",
+        }
+    }, {
+        "name": "其他常量(css颜色、用户自定义等)",
+        "scope": "constant.other",
+        "settings": {
+            "foreground": "#39f",
+        }
+    }, {
+        "name": "变量",
+        "scope": "variable",
+        "settings": {
+            "foreground": "#e33",
+        }
+    }, {
+        "name": "内置变量",
+        "scope": "variable.language",
+        "settings": {
+            "foreground": "#e33",
+            "fontStyle": "bold",
+        }
+    }, {
+        "name": "成员属性(类变量)",
+        "scope": "variable.other.member",
+        "settings": {
+            "foreground": "#e33",
+        }
+    }, {
+        "name": "js$符",
+        "scope": "variable.other.dollar.only.js",
+        "settings": {
+            "foreground": "#e33",
+        }
+    }, {
+        "name": "函数调用",
+        "scope": "variable.function",
+        "settings": {
+            "foreground": "#93f",
+        }
+    }, {
+        "name": "内置函数调用",
+        "scope": "support.function",
+        "settings": {
+            "foreground": "#93f",
+            "fontStyle": "bold",
+        }
+    }, {
+        "name": "函数命名",
+        "scope": "entity.name.function",
+        "settings": {
+            "foreground": "#93f",
+        }
+    }, {
+        "name": "类名命名",
+        "scope": "entity",
+        "settings": {
+            "foreground": "#d90",
+        }
+    }, {
+        "name": "形参",
+        "scope": "variable.parameter",
+        "settings": {
+            "foreground": "#d90",
+        }
+    }, {
+        "name": "关键字",
+        "scope": "keyword",
+        "settings": {
+            "foreground": "#00f",
+        }
+    }, {
+        "name": "运算符箭头 and",
+        "scope": "keyword.operator",
+        "settings": {
+            "foreground": "#00f",
+        }
+    }, {
+        "name": "定义保留字(function static)",
+        "scope": "storage",
+        "settings": {
+            "foreground": "#00f",
+        }
+    }, {
+        "name": "库",
+        "scope": "support",
+        "settings": {
+            "foreground": "#f3f",
+        }
+    }, {
+        "name": "继承类名",
+        "scope": "entity.other.inherited-class",
+        "settings": {
+            "foreground": "#f3f",
+        }
+    }, {
+        "name": "html标签名",
+        "scope": "entity.name.tag",
+        "settings": {
+            "foreground": "#39f",
+        }
+    }, {
+        "name": "CSS属性名",
+        "scope": "entity.other.attribute-name",
+        "settings": {
+            "foreground": "#f00",
+        }
+    }, {
+        "name": "无效的",
+        "scope": "invalid",
+        "settings": {
+            "foreground": "#fff",
+            "background": "#DDB700",
+            "fontStyle": "italic",
+        }
+    }, {
+        "name": "用户未定义",
+        "scope": "User-defined",
+        "settings": {
+            "foreground": "#000",
+        }
+    }, {
+        "name": "SublimeLinter Warning",
+        "scope": "sublimelinter.mark.warning",
+        "settings": {
+            "foreground": "#DDB700",
+        }
+    }, {
+        "name": "SublimeLinter Gutter Mark",
+        "scope": "sublimelinter.gutter-mark",
+        "settings": {
+            "foreground": "#FFFFFF",
+        }
+    }, {
+        "name": "SublimeLinter Error",
+        "scope": "sublimelinter.mark.error",
+        "settings": {
+            "foreground": "#D02000",
+        }
+    }],
+    "colors": {
+        "activityBar.foreground": "#123", //活动栏前景色(例如用于图标)
+        "activityBar.background": "#C0CCD3", //活动栏背景色
+        "activityBar.inactiveForeground": "#789", //活动栏项处于非活动状态时的前景色。
+        "activityBar.dropBackground": "#E7EBF1", ////活动栏项目的拖放反馈颜色。
+        "scrollbar.shadow": "#C0CCD3", //滚动条滑块阴影，指示视图已滚动。
+        "scrollbarSlider.activeBackground": "#C0CCD3", //单击时，滚动条滑块的背景色。
+        "scrollbarSlider.background": "#C0CCD3", //滚动条滑块背景色。
+        "scrollbarSlider.hoverBackground": "#C0CCD3", //悬停时的滚动条滑块背景色。
+        "sideBar.background": "#E7EBF1", //侧栏背景色。
+        "sideBar.foreground": "#345", //侧栏前景颜色。侧栏是浏览器和搜索等视图的容器。
+        "sideBar.border": "#C0CCD3", //分隔编辑器一侧的边栏边框颜色。
+        "sideBarTitle.foreground": "#345", //侧栏标题前景颜色。
+        "sideBarSectionHeader.background": "#C0CCD3", //侧栏部分标题背景色。
+        "sideBarSectionHeader.foreground": "#345", //侧栏部分标题前景色。
+        "sideBarSectionHeader.border": "#C0CCD3", //侧栏部分标题边框颜色。
+        "statusBar.background": "#24ABF2", //标准状态栏背景色
+        "statusBar.debuggingBackground": "#24ABF2", //调试程序时状态栏的背景色
+        "statusBar.noFolderBackground": "#eee", //没有打开文件夹时状态栏的背景色
+        "editorCursor.foreground": "#000", //编辑器光标颜色
+        "editorLineNumber.foreground": "#ccc", //行号颜色
+        "editorLineNumber.activeForeground": "#789", //行号当前颜色
+        "editorGutter.background": "#EAEAEA", //行数的背景颜色
+        "editorWhitespace.foreground": "#ccc", //空格和tab还有字符的颜色
+        "editor.background": "#EAEAEA", //编辑区背景颜色
+        "editor.foreground": "#000", //编辑区默认字体颜色
+        "editor.inactiveSelectionBackground": "#cee", //非活动编辑器内选中文字颜色
+        "editor.selectionBackground": "#C0CCD3", //选中文字颜色
+        "editor.selectionForeground": "#f00", //高对比度选中文字颜色
+        "editor.selectionHighlightBackground": "#cee", //于所选项相同的内容
+        "editor.selectionHighlightBorder": "#C0CCD3", //于所选项相同的内容的边框颜色
+        "editorGroupHeader.tabsBackground": "#E7EBF1", //工作区顶部标签之外的颜色
+        "editorGroupHeader.tabsBorder": "#C0CCD3", //标签底边线颜色
+        "tab.border": "#E7EBF1", //工作区顶部多标签之间的间隙颜色
+        "tab.inactiveBackground": "#E7EBF1", //非激活标签背景颜色
+        "tab.inactiveForeground": "#345", //非激活标签字体颜色
+        "tab.activeBackground": "#C0CCD3", //当前标签背景颜色
+        "tab.activeForeground": "#000", //当前标签字体颜色
+        "tab.hoverBackground": "#C0CCD3", //鼠标悬浮的标签背景颜色
+        "tab.activeModifiedBorder": "#f00", //
+        "tab.inactiveModifiedBorder": "#f00", //
+        "tab.unfocusedActiveModifiedBorder": "#f00", //
+        "tab.unfocusedInactiveModifiedBorder": "#f00", //
+    },
+    "name": "ZhaiSasi"
 }
