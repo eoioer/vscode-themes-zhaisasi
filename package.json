@@ -1,8 +1,8 @@
 {
 	"name": "zhaisasi",
-	"displayName": "ZhaiSasi",
-	"description": "VSCode theme optimized version",
-	"version": "0.0.1",
+	"displayName": "ZhaiSasi Themes",
+	"description": "Very healthy color matching.",
+	"version": "0.1.1",
 	"publisher": "zhaisasi",
 	"engines": {
 		"vscode": "^1.26.0"
