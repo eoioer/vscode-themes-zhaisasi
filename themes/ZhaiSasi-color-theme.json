@@ -204,9 +204,9 @@
         "sideBarSectionHeader.background": "#C0CCD3", //侧栏部分标题背景色。
         "sideBarSectionHeader.foreground": "#345", //侧栏部分标题前景色。
         "sideBarSectionHeader.border": "#C0CCD3", //侧栏部分标题边框颜色。
-        "statusBar.background": "#24ABF2", //标准状态栏背景色
-        "statusBar.debuggingBackground": "#24ABF2", //调试程序时状态栏的背景色
-        "statusBar.noFolderBackground": "#eee", //没有打开文件夹时状态栏的背景色
+        "statusBar.background": "#9ab", //标准状态栏背景色
+        "statusBar.debuggingBackground": "#9ab", //调试程序时状态栏的背景色
+        "statusBar.noFolderBackground": "#9ab", //没有打开文件夹时状态栏的背景色
         "editorCursor.foreground": "#000", //编辑器光标颜色
         "editorLineNumber.foreground": "#ccc", //行号颜色
         "editorLineNumber.activeForeground": "#789", //行号当前颜色
