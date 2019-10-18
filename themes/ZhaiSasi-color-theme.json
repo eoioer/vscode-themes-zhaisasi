@@ -135,13 +135,13 @@
         "name": "库",
         "scope": "support",
         "settings": {
-            "foreground": "#f3f",
+            "foreground": "#e3e",
         }
     }, {
         "name": "继承类名",
         "scope": "entity.other.inherited-class",
         "settings": {
-            "foreground": "#f3f",
+            "foreground": "#e3e",
         }
     }, {
         "name": "html标签名",
@@ -153,39 +153,22 @@
         "name": "CSS属性名",
         "scope": "entity.other.attribute-name",
         "settings": {
-            "foreground": "#f00",
+            "foreground": "#e00",
         }
     }, {
         "name": "无效的",
         "scope": "invalid",
         "settings": {
-            "foreground": "#fff",
+            "foreground": "#000",
             "background": "#DDB700",
-            "fontStyle": "italic",
+            "fontStyle": "bold underline",
         }
     }, {
         "name": "用户未定义",
         "scope": "User-defined",
         "settings": {
             "foreground": "#000",
-        }
-    }, {
-        "name": "SublimeLinter Warning",
-        "scope": "sublimelinter.mark.warning",
-        "settings": {
-            "foreground": "#DDB700",
-        }
-    }, {
-        "name": "SublimeLinter Gutter Mark",
-        "scope": "sublimelinter.gutter-mark",
-        "settings": {
-            "foreground": "#FFFFFF",
-        }
-    }, {
-        "name": "SublimeLinter Error",
-        "scope": "sublimelinter.mark.error",
-        "settings": {
-            "foreground": "#D02000",
+            "fontStyle": "bold underline",
         }
     }],
     "colors": {
@@ -193,11 +176,13 @@
         "activityBar.background": "#C0CCD3", //活动栏背景色
         "activityBar.inactiveForeground": "#789", //活动栏项处于非活动状态时的前景色。
         "activityBar.dropBackground": "#E7EBF1", ////活动栏项目的拖放反馈颜色。
+        "badge.foreground":"#fff", //小图标颜色
+        "badge.background":"#08e", //小图标背景色
         "scrollbar.shadow": "#C0CCD3", //滚动条滑块阴影，指示视图已滚动。
         "scrollbarSlider.activeBackground": "#C0CCD3", //单击时，滚动条滑块的背景色。
         "scrollbarSlider.background": "#C0CCD3", //滚动条滑块背景色。
         "scrollbarSlider.hoverBackground": "#C0CCD3", //悬停时的滚动条滑块背景色。
-        "sideBar.background": "#E7EBF1", //侧栏背景色。
+        "sideBar.background": "#E1E5EA", //侧栏背景色。
         "sideBar.foreground": "#345", //侧栏前景颜色。侧栏是浏览器和搜索等视图的容器。
         "sideBar.border": "#C0CCD3", //分隔编辑器一侧的边栏边框颜色。
         "sideBarTitle.foreground": "#345", //侧栏标题前景颜色。
@@ -211,26 +196,23 @@
         "editorLineNumber.foreground": "#ccc", //行号颜色
         "editorLineNumber.activeForeground": "#789", //行号当前颜色
         "editorGutter.background": "#EAEAEA", //行数的背景颜色
-        "editorWhitespace.foreground": "#ccc", //空格和tab还有字符的颜色
+        "editorWhitespace.foreground": "#cfcfcf", //空格和tab还有字符的颜色
         "editor.background": "#EAEAEA", //编辑区背景颜色
         "editor.foreground": "#000", //编辑区默认字体颜色
         "editor.inactiveSelectionBackground": "#cee", //非活动编辑器内选中文字颜色
-        "editor.selectionBackground": "#C0CCD3", //选中文字颜色
+        "editor.selectionBackground": "#cde", //选中文字颜色
         "editor.selectionForeground": "#f00", //高对比度选中文字颜色
         "editor.selectionHighlightBackground": "#cee", //于所选项相同的内容
-        "editor.selectionHighlightBorder": "#C0CCD3", //于所选项相同的内容的边框颜色
+        "editor.selectionHighlightBorder": "#789", //于所选项相同的内容的边框颜色
         "editorGroupHeader.tabsBackground": "#E7EBF1", //工作区顶部标签之外的颜色
         "editorGroupHeader.tabsBorder": "#C0CCD3", //标签底边线颜色
         "tab.border": "#E7EBF1", //工作区顶部多标签之间的间隙颜色
-        "tab.inactiveBackground": "#E7EBF1", //非激活标签背景颜色
+        "tab.inactiveBackground": "#E1E5EA", //非激活标签背景颜色
         "tab.inactiveForeground": "#345", //非激活标签字体颜色
         "tab.activeBackground": "#C0CCD3", //当前标签背景颜色
         "tab.activeForeground": "#000", //当前标签字体颜色
         "tab.hoverBackground": "#C0CCD3", //鼠标悬浮的标签背景颜色
-        "tab.activeModifiedBorder": "#f00", //
-        "tab.inactiveModifiedBorder": "#f00", //
-        "tab.unfocusedActiveModifiedBorder": "#f00", //
-        "tab.unfocusedInactiveModifiedBorder": "#f00", //
+        "minimap.findMatchHighlight":"#789",//迷你地图匹配的内容背景色
     },
     "name": "ZhaiSasi"
 }
