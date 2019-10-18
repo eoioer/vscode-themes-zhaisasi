@@ -1,21 +1,31 @@
-Very healthy color matching.
-
-Despite its poor appearance, it is very comfortable for the eyes.
-
-Looking at dark for a long time can damage your eyesight.
-
-This is my personal theme, color matching used for many years.
-
 非常健康的配色
 
-别看其貌不扬，对眼睛却非常舒服。
+Very healthy color matching
 
-长时间看暗色会损害视力
+对眼睛非常舒服
 
-这是我个人用的主题，配色用了很多年。
+it is very comfortable for the eyes
+
+医生告诉我长时间看黑屏会损害我的视力
+
+The doctor told me that looking at the dark screen for a long time would damage my eyesight
+
+所以我做了这个亮色的主题
+
+So I made this light theme
+
+这个配色使用了很多年
+
+It has been used for many years 
+
+如今我的眼神依然迷人 $_$
+
+Now my eyes are still charming $_$
 
 
-zhaisasi@qq.com
+   
+
+zhaisasi@gmail.com
 
 ![Image text](https://raw.githubusercontent.com/zhaisasi/vscode-themes-zhaisasi/master/img/php.png)
 ![Image text](https://raw.githubusercontent.com/zhaisasi/vscode-themes-zhaisasi/master/img/html.png)
