@@ -25,7 +25,7 @@ Now my eyes are still charming $_$
 
    
 
-zhaisasi@gmail.com
+zhaisasi@qq.com
 
 ![Image text](https://raw.githubusercontent.com/zhaisasi/vscode-themes-zhaisasi/master/img/php.png)
 ![Image text](https://raw.githubusercontent.com/zhaisasi/vscode-themes-zhaisasi/master/img/html.png)
