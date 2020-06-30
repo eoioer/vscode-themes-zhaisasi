@@ -18,7 +18,7 @@ So I made this light theme
 
 It has been used for many years 
 
-如今我的眼神依然迷人 $_$
+如今我的眼神依然迷人 ¥_¥
 
 Now my eyes are still charming $_$
 
