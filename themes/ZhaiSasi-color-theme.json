@@ -213,6 +213,8 @@
         "tab.activeForeground": "#000", //当前标签字体颜色
         "tab.hoverBackground": "#C0CCD3", //鼠标悬浮的标签背景颜色
         "minimap.findMatchHighlight":"#789",//迷你地图匹配的内容背景色
+        "list.inactiveSelectionBackground": "#219fd5cc", // 侧边栏文件列表未激活背景色
+        "list.inactiveSelectionForeground": "#345", // 侧边栏文件列表未激活前景色
     },
     "name": "ZhaiSasi"
 }
