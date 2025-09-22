@@ -13,14 +13,14 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/zhaisasi/vscode-themes-zhaisasi.git" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/zhaisasi/vscode-themes-zhaisasi.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/eoioer/vscode-themes-zhaisasi.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/eoioer/vscode-themes-zhaisasi.git" />
         
-          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/zhaisasi/vscode-themes-zhaisasi.git" />
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/eoioer/vscode-themes-zhaisasi.git" />
         
       
-      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/zhaisasi/vscode-themes-zhaisasi/issues" />
-      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/zhaisasi/vscode-themes-zhaisasi" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/eoioer/vscode-themes-zhaisasi/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/eoioer/vscode-themes-zhaisasi" />
       
       
       <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
