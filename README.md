@@ -1,22 +1,4 @@
-```
-Very healthy color matching
-非常健康的配色
 
-it is very comfortable for the eyes
-对眼睛非常舒服
-
-The doctor told me that looking at the dark screen for a long time would damage my eyesight
-医生告诉我长时间看黑屏会损害我的视力
-
-So I made this light theme
-所以我做了这个亮色的主题
-
-It has been used for many years 
-这个配色使用了很多年
-
-Now my eyes are still charming $_$
-如今我的眼神依然迷人 ¥_¥
-```
 
 ```
 Orange: Namespace, Class Name
